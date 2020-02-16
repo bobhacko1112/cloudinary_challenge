@@ -1,0 +1,29 @@
+{
+  "name": "node-photo-album",
+  "version": "0.0.0",
+  "description": "Cloudinary Express demo",
+  "main": "server.js",
+  "scripts": {
+    "debug": "./node_modules/.bin/supervisor -e 'js|ejs|node' server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-file-upload": "^10.7.0",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.19.0",
+    "cloudinary-jquery-file-upload": "^2.8.0",
+    "connect-multiparty": "^1.2.5",
+    "dotenv": "^0.4.0",
+    "ejs": "^2.5.5",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "jugglingdb": "^1.0.2",
+    "jugglingdb-mongodb": "^0.1.1",
+    "method-override": "^2.3.10"
+  },
+  "devDependencies": {
+    "supervisor": "^0.6.0"
+  }
+}
